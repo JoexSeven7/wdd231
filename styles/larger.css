@@ -1,0 +1,30 @@
+@import url('base.css');
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+display: block;}
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  nav a {
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .courses-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .courses-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
