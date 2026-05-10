@@ -384,7 +384,7 @@ footer {
 }
 
 .social-links a {
-  color: var(--light-text);
+  color: var(--dark-text);
   margin: 0 0.5rem;
   font-size: 1.5rem;
   transition: color 0.3s;
@@ -396,4 +396,5 @@ footer {
 
 footer p {
   margin: 0.25rem 0;
+  color: var(--dark-text);
 }
