@@ -1,15 +1,15 @@
-/* ===== OREM CHAMBER OF COMMERCE — small.css =====
+/* ===== CHAMBER OF COMMERCE — small.css =====
    Mobile-first base styles.
    Loaded after normalize.css. Desktop overrides live in larger.css.
-   ===== COLOR PALETTE (Utah Valley) ===== */
+   ===== COLOR PALETTE ===== */
 :root {
-    /* Primary — Deep Alpenglow Blue (Utah sky / north face) */
+    /* Primary — Deep Blue */
     --primary-color:         #1B3A6B;
     --primary-light:         #2E5FA3;
-    /* Secondary — Golden Hour / Sandstone */
+    /* Secondary — Gold */
     --secondary-color:       #D4A04D;
     --secondary-light:       #E8BD6A;
-    /* Accent — Red Rock / Alpine Fire */
+    /* Accent — Red */
     --accent-color:          #C0392B;
     /* Neutrals */
     --text-dark:             #2C3E50;
