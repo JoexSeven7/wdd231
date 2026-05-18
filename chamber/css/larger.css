@@ -1,0 +1,161 @@
+/* ===== CHAMBER — larger.css =====
+   Desktop / tablet overrides for viewports ≥ 768px.
+   Must be loaded after small.css.  */
+
+@media screen and (min-width: 768px) {
+
+    /* --- HEADER --- */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+    }
+
+    .header-center {
+        flex: 1;
+        text-align: center;
+        margin: 0;
+    }
+
+    .header-center h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-right {
+        flex: 0 0 auto;
+    }
+
+    /* Hide mobile hamburger / show nav */
+    .menu-toggle {
+        display: none;
+    }
+
+    .primary-nav {
+        display: block !important;
+        background: transparent;
+        padding: 0;
+        flex: 0 0 auto;
+    }
+
+    .primary-nav ul {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .primary-nav a {
+        padding: 0.6rem 1rem;
+        font-size: 0.95rem;
+        border-radius: 6px;
+    }
+
+    .primary-nav a:hover,
+    .primary-nav a:focus {
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    .primary-nav a.active {
+        background: var(--secondary-color);
+        color: var(--bg-dark);
+    }
+
+    /* --- MAIN --- */
+    main {
+        padding: 2rem;
+    }
+
+    /* --- DIRECTORY HERO --- */
+    .directory-hero {
+        padding: 2.5rem 2rem;
+    }
+
+    .directory-hero h2 {
+        font-size: 2rem;
+    }
+
+    /* --- DIRECTORY CONTROLS --- */
+    .directory-controls {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .control-buttons {
+        gap: 0.75rem;
+    }
+
+    .view-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .search-box {
+        width: auto;
+        flex: 1;
+        max-width: 320px;
+    }
+
+    .search-box input {
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
+    }
+
+    /* --- MEMBER GRID --- */
+    .member-grid.grid-view {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+
+    /* --- LIST VIEW --- */
+    .member-list .member-card {
+        flex-direction: row;
+    }
+
+    .member-list .member-card-image {
+        width: 160px;
+        min-width: 160px;
+    }
+
+    .member-list .member-card-header h3 {
+        font-size: 1.1rem;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+        padding: 2.5rem 2rem 1.5rem;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 2rem;
+        text-align: left;
+    }
+
+    .footer-contact {
+        margin-bottom: 0;
+    }
+
+    .footer-social {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin-bottom: 0;
+    }
+
+    .footer-social a img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .footer-dev {
+        border-top: none;
+        border-left: 1px solid #333;
+        padding-top: 0;
+        padding-left: 2rem;
+        text-align: left;
+    }
+}

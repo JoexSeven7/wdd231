@@ -1,0 +1,92 @@
+[
+    {
+        "company": "Orem Grill & Catering",
+        "address": "550 South State Street, Orem, UT 84058",
+        "phone": "(801) 555-0101",
+        "url": "https://oremgrillcatering.dev",
+        "image": "restaurant.svg",
+        "level": 3,
+        "info": "Homemade dishes and full catering service for all kinds of events in Utah County."
+    },
+    {
+        "company": "Timpanogos Tech Solutions",
+        "address": "1200 East 800 North, Orem, UT 84097",
+        "phone": "(801) 555-0102",
+        "url": "https://timptech.dev",
+        "image": "tech.svg",
+        "level": 2,
+        "info": "Custom software development and technology support for small businesses."
+    },
+    {
+        "company": "Mount Timpanogos Realty",
+        "address": "155 North 100 East, Orem, UT 84057",
+        "phone": "(801) 555-0103",
+        "url": "https://timprealty.dev",
+        "image": "realty.svg",
+        "level": 1,
+        "info": "Residential and commercial real estate in Utah Valley since 1998."
+    },
+    {
+        "company": "Provo River Dental",
+        "address": "780 South Geneva Road, Orem, UT 84058",
+        "phone": "(801) 555-0104",
+        "url": "https://provodental.dev",
+        "image": "dental.svg",
+        "level": 3,
+        "info": "General and specialty family dentistry for children and adults."
+    },
+    {
+        "company": "Orem Family Bookshop",
+        "address": "320 West Center Street, Orem, UT 84057",
+        "phone": "(801) 555-0105",
+        "url": "https://orembookshop.dev",
+        "image": "bookshop.svg",
+        "level": 1,
+        "info": "New and used books, stationery and school supplies."
+    },
+    {
+        "company": "Peak Athletics",
+        "address": "220 South 1200 West, Orem, UT 84058",
+        "phone": "(801) 555-0106",
+        "url": "https://peakathletics.dev",
+        "image": "fitness.svg",
+        "level": 2,
+        "info": "Full-service gym with personal training and group classes."
+    },
+    {
+        "company": "UVU Farmers Market Co-op",
+        "address": "800 East University Parkway, Orem, UT 84097",
+        "phone": "(801) 555-0107",
+        "url": "https://uvufarmerscoop.dev",
+        "image": "farmers.svg",
+        "level": 3,
+        "info": "Community farmers market with locally grown produce and handmade goods."
+    },
+    {
+        "company": "Digital Frontier Marketing",
+        "address": "480 West Center Street, Orem, UT 84057",
+        "phone": "(801) 555-0108",
+        "url": "https://digitalfrontier.dev",
+        "image": "digital.svg",
+        "level": 2,
+        "info": "Digital marketing strategy, SEO and web design for local businesses."
+    },
+    {
+        "company": "Utah Valley Auto Care",
+        "address": "920 South State Street, Orem, UT 84058",
+        "phone": "(801) 555-0109",
+        "url": "https://utahautocare.dev",
+        "image": "autocare.svg",
+        "level": 2,
+        "info": "Routine auto repair, brake service and electronic diagnostics."
+    },
+    {
+        "company": "Alpine Insurance & Financial",
+        "address": "240 West 400 South, Orem, UT 84058",
+        "phone": "(801) 555-0110",
+        "url": "https://alpineinsurance.dev",
+        "image": "insurance.svg",
+        "level": 3,
+        "info": "Life, health and property insurance with personalized retirement plans."
+    }
+]

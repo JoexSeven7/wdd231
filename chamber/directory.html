@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Member Directory of the Watcher Chamber of Commerce. Find local businesses, service providers and community organizations.">
+    <meta name="author" content="John Joshua">
+    <title>Directory | Watcher Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Directory | Watcher Chamber of Commerce">
+    <meta property="og:description" content="Explore local businesses, service providers and community organizations connected through the Watcher Chamber of Commerce.">
+    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:url" content="https://JoexSeven7.github.io/wdd231/chamber/directory.html">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/larger.css" media="(min-width: 768px)">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="directory.html">
+                <img src="images/eye.svg" alt="Orem Chamber of Commerce logo" width="30" height="30">
+                <span>Watcher</span>
+            </a>
+        </div>
+        <div class="header-center">
+            <h1>Watcher Chamber of Commerce</h1>
+            <p class="tagline">Building a Stronger, More Prosperous Community</p>
+        </div>
+        <div class="header-right">
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Menu">MENU</button>
+        </div>
+        <nav id="primary-nav" class="primary-nav">
+            <ul>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="impact.html">Impact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="directory-hero">
+            <h2>Member Directory</h2>
+            <p>Explore our community of trusted local businesses and organizations.</p>
+        </section>
+
+        <section class="directory-controls">
+            <h3 class="visually-hidden">Directory View Options</h3>
+            <p>Display Order:</p>
+            <div class="control-buttons" role="group" aria-label="View selection">
+                <button id="grid-view" class="view-btn active" aria-label="Grid view">
+                    <span class="view-label">Grid</span>
+                </button>
+                <button id="list-view" class="view-btn" aria-label="List view">
+                    <span class="view-label">List</span>
+                </button>
+            </div>
+            <div class="search-box">
+                <label for="search-input" class="visually-hidden">Search Members</label>
+                <input type="search" id="search-input" placeholder="Search members…" aria-label="Search members">
+            </div>
+        </section>
+
+        <section class="directory-display">
+            <div id="member-grid" class="member-grid grid-view">
+                <p class="loading">Loading member data…</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h4>Contact the Watcher Chamber of Commerce</h4>
+                <p>Address: 980 Wolf Creek Drive, Watcher</p>
+                <p>Phone: (801) 555-0100</p>
+                <p>Email: <a href="mailto:info@oremchamber.org">info@oremchamber.org</a></p>
+            </div>
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <img src="images/facebook-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <img src="images/twitter-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <img src="images/instagram-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img src="images/linkedin-icon.svg" alt="" width="32" height="32">
+                </a>
+            </div>
+            <div class="footer-dev">
+                <p>John Joshua | WDD 231 | Course Project | <span id="mod-date"></span></p>
+                <p>&copy; <span id="copyright-year"></span> Watcher Chamber of Commerce</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/directory.js"></script>
+</body>
+</html>
