@@ -12,12 +12,15 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Directory | Lagos Chamber of Commerce">
     <meta property="og:description" content="Explore local businesses, service providers and community organisations across Lagos connected through the chamber.">
-    <meta property="og:image" content="images/og-image.jpg">
+    <meta property="og:image" content="https://JoexSeven7.github.io/wdd231/chamber/images/og-image.jpg">
     <meta property="og:url" content="https://JoexSeven7.github.io/wdd231/chamber/directory.html">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/larger.css" media="(min-width: 768px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
 </head>
 <body>
     <header>
@@ -28,7 +31,7 @@
             </a>
         </div>
         <div class="header-center">
-            <h1>Lagos Chamber of Commerce</h1>
+            <span class="site-name">Lagos Chamber of Commerce</span>
             <p class="tagline">Building a Stronger, More Prosperous Nigeria</p>
         </div>
         <div class="header-right">
@@ -45,6 +48,7 @@
     </header>
 
     <main>
+        <h1>Directory | Lagos Chamber of Commerce</h1>
         <section class="directory-hero">
             <h2>Member Directory</h2>
             <p>Explore our community of trusted local businesses and organisations across Lagos.</p>
@@ -103,6 +107,6 @@
         </div>
     </footer>
 
-    <script src="js/directory.js"></script>
+    <script src="scripts/directory.js" defer></script>
 </body>
 </html>
