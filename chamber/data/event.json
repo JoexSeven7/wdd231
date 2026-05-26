@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Monthly Networking Mixer",
+        "date": "June 15, 2026",
+        "time": "6:00 PM - 9:00 PM",
+        "description": "Join fellow business leaders for an evening of networking and collaboration at our monthly mixer."
+    },
+    {
+        "title": "Small Business Workshop",
+        "date": "June 22, 2026",
+        "time": "9:00 AM - 12:00 PM",
+        "description": "Learn essential strategies for growing your small business with our expert panel."
+    },
+    {
+        "title": "Annual Business Summit",
+        "date": "July 10, 2026",
+        "time": "8:00 AM - 5:00 PM",
+        "description": "Our flagship annual event featuring keynote speakers and breakout sessions."
+    }
+]

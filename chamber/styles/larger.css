@@ -140,7 +140,7 @@
     }
 
     .footer-social {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         gap: 0.75rem;
         margin-bottom: 0;
@@ -157,5 +157,29 @@
         padding-top: 0;
         padding-left: 2rem;
         text-align: left;
+    }
+
+    /* --- HOME PAGE STYLES (desktop) --- */
+
+    /* Hero section */
+    .hero-image {
+        height: 400px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    /* Card grid - multi-column layout on desktop */
+    .card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+
+    /* CTA section */
+    .cta {
+        text-align: center;
+        padding: 2rem;
+        background: var(--bg-medium);
+        border-radius: 8px;
     }
 }
