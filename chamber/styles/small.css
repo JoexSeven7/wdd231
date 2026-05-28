@@ -630,7 +630,6 @@ footer {
 /* Weather card */
 .weather-card {
     background: var(--primary-color);
-    background-image: url('../images/weather.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
