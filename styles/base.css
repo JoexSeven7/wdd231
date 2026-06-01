@@ -205,7 +205,7 @@ template {
 
 /* Header & Navigation */
 header {
-  background-color: var(--primary-color);
+  background-color: var(--light-bg);
   color: var(--light-text);
   padding: 1rem 2rem;
   display: flex;
@@ -281,7 +281,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 /* Desktop navigation */
@@ -355,7 +355,7 @@ h2 {
 
 .course-card h3 {
   margin: 0 0 0.5rem 0;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .course-card p {
