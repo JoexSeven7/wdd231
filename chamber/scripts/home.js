@@ -215,4 +215,4 @@ async function loadSpotlightMembers() {
 /* ── INIT ────────────────────────────────────────────────────────────────── */
 loadEvents();
 loadWeather();
-loadSpotlightMembers();
+loadSpotlightMembers(); 

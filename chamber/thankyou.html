@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for joining the Lagos Chamber of Commerce. We look forward to supporting your business growth.">
+    <meta name="author" content="John Joshua">
+    <title>Thank You | Lagos Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Thank You | Lagos Chamber of Commerce">
+    <meta property="og:description" content="Thank you for applying to join the Lagos Chamber of Commerce. We look forward to supporting your business growth.">
+    <meta property="og:image" content="https://JoexSeven7.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://JoexSeven7.github.io/wdd231/chamber/thankyou.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="styles/modal.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="home.html">
+                <img src="images/eye.svg" alt="Lagos Chamber of Commerce logo" width="30" height="30">
+                <span>Watcher</span>
+            </a>
+        </div>
+        <div class="header-center">
+            <span class="site-name">Lagos Chamber of Commerce</span>
+            <p class="tagline">Building a Stronger, More Prosperous Nigeria</p>
+        </div>
+        <div class="header-right">
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Menu">MENU</button>
+        </div>
+        <nav id="primary-nav" class="primary-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="impact.html">Impact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Thank You for Your Application!</h1>
+        
+        <section class="thankyou-section">
+            <div class="thankyou-card">
+                <h2>Application Received</h2>
+                <p>We have received your membership application for the Lagos Chamber of Commerce. Our team will review your application and contact you within 3-5 business days.</p>
+                
+                <div class="application-details">
+                    <h3>Application Summary</h3>
+                    <div class="detail-item">
+                        <span class="label">Name:</span>
+                        <span id="full-name"></span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Email:</span>
+                        <span id="email-display"></span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Phone:</span>
+                        <span id="phone-display"></span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Business:</span>
+                        <span id="business-display"></span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Membership Level:</span>
+                        <span id="membership-display"></span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Application Date:</span>
+                        <span id="date-display"></span>
+                    </div>
+                </div>
+                
+                <p>In the meantime, feel free to explore our <a href="directory.html">member directory</a> and <a href="events.html">upcoming events</a>.</p>
+                
+                <a href="home.html" class="btn-primary">Return to Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contact the Lagos Chamber of Commerce</h3>
+                <p>Address: 10A Ozumba Mbadiwe Road, Victoria Island, Lagos, Nigeria</p>
+                <p>Phone: +234-1-277-4400</p>
+                <p>Email: <a href="mailto:info@lagoschamber.ng">info@lagoschamber.ng</a></p>
+            </div>
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <img src="images/facebook-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <img src="images/twitter-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <img src="images/instagram-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img src="images/linkedin-icon.svg" alt="" width="32" height="32">
+                </a>
+            </div>
+            <div class="footer-dev">
+                <p>John Joshua | WDD 231 | Course Project | <span id="mod-date"></span></p>
+                <p>&copy; <span id="copyright-year"></span> Lagos Chamber of Commerce</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/thanks.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Lagos Chamber of Commerce. Become a member and gain access to exclusive resources, networking opportunities, and business support services.">
+    <meta name="author" content="John Joshua">
+    <title>Join | Lagos Chamber of Commerce</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Join | Lagos Chamber of Commerce">
+    <meta property="og:description" content="Become a member of the Lagos Chamber of Commerce and connect with local businesses, access resources, and grow your network across Nigeria.">
+    <meta property="og:image" content="https://JoexSeven7.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://JoexSeven7.github.io/wdd231/chamber/join.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="styles/modal.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="home.html">
+                <img src="images/eye.svg" alt="Lagos Chamber of Commerce logo" width="30" height="30">
+                <span>Watcher</span>
+            </a>
+        </div>
+        <div class="header-center">
+            <span class="site-name">Lagos Chamber of Commerce</span>
+            <p class="tagline">Building a Stronger, More Prosperous Nigeria</p>
+        </div>
+        <div class="header-right">
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle Menu">MENU</button>
+        </div>
+        <nav id="primary-nav" class="primary-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="impact.html">Impact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Membership Application</h1>
+        
+        <div class="join-container">
+            <form action="thankyou.html" method="get" class="membership-form">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="first-name">First Name *
+                        <input type="text" id="first-name" name="first-name" required title="Enter your first name" autocomplete="given-name">
+                    </label>
+                    
+                    <label for="last-name">Last Name *
+                        <input type="text" id="last-name" name="last-name" required title="Enter your last name" autocomplete="family-name">
+                    </label>
+                    
+                    <label for="org-title">Organizational Title
+                        <input type="text" id="org-title" name="org-title" title="Enter your title within your organization" autocomplete="organization-title" pattern="^[a-zA-Z\s\-]{7,}$" placeholder="e.g., Marketing Manager">
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    
+                    <label for="email">Email Address *
+                        <input type="email" id="email" name="email" required title="Enter your email address" autocomplete="email" placeholder="example@domain.com">
+                    </label>
+                    
+                    <label for="mobile">Mobile Phone Number *
+                        <input type="tel" id="mobile" name="mobile" required title="Enter your mobile phone number" autocomplete="tel">
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Organization Information</legend>
+                    
+                    <label for="organization">Business/Organization Name *
+                        <input type="text" id="organization" name="organization" required title="Enter your business or organization name" autocomplete="organization">
+                    </label>
+                    
+                    <label for="membership">Membership Level *
+                        <select id="membership" name="membership" required title="Select your membership level">
+                            <option value="" disabled selected>Select Membership Level</option>
+                            <option value="np">NP Membership (Non-Profit)</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    
+                    <label for="description">Business/Organization Description
+                        <textarea id="description" name="description" rows="4" title="Describe your business or organization"></textarea>
+                    </label>
+                </fieldset>
+                
+                <input type="hidden" id="timestamp" name="timestamp">
+                
+                <button type="submit" class="btn-primary">Submit Application</button>
+            </form>
+            
+            <div class="membership-cards">
+                <div class="membership-card" id="np-card">
+                    <h3>NP Membership</h3>
+                    <p>For non-profit organizations</p>
+                    <button class="membership-link" data-membership="np">View Benefits</button>
+                </div>
+                
+                <div class="membership-card" id="bronze-card">
+                    <h3>Bronze Membership</h3>
+                    <p>Basic business support</p>
+                    <button class="membership-link" data-membership="bronze">View Benefits</button>
+                </div>
+                
+                <div class="membership-card" id="silver-card">
+                    <h3>Silver Membership</h3>
+                    <p>Enhanced networking opportunities</p>
+                    <button class="membership-link" data-membership="silver">View Benefits</button>
+                </div>
+                
+                <div class="membership-card" id="gold-card">
+                    <h3>Gold Membership</h3>
+                    <p>Premium benefits and visibility</p>
+                    <button class="membership-link" data-membership="gold">View Benefits</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Membership Dialogs -->
+    <dialog id="np-dialog" class="membership-dialog">
+        <div class="dialog-content">
+            <button class="close-dialog">&times;</button>
+            <h2>NP Membership (Non-Profit)</h2>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>Free listing in the member directory</li>
+                <li>Access to basic networking events</li>
+                <li>Monthly newsletter subscription</li>
+                <li>Basic business workshops (2 per year)</li>
+                <li>Digital member badge for website</li>
+            </ul>
+            <p><strong>Cost:</strong> Free for qualified non-profit organizations</p>
+        </div>
+    </dialog>
+
+    <dialog id="bronze-dialog" class="membership-dialog">
+        <div class="dialog-content">
+            <button class="close-dialog">&times;</button>
+            <h2>Bronze Membership</h2>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>All NP Membership benefits</li>
+                <li>Priority listing in the member directory</li>
+                <li>Access to all networking events (member price)</li>
+                <li>Quarterly business workshops (4 per year)</li>
+                <li>Monthly newsletter with industry insights</li>
+                <li>Basic advertising on our events page</li>
+            </ul>
+            <p><strong>Cost:</strong> ?50,000/year</p>
+        </div>
+    </dialog>
+
+    <dialog id="silver-dialog" class="membership-dialog">
+        <div class="dialog-content">
+            <button class="close-dialog">&times;</button>
+            <h2>Silver Membership</h2>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>All Bronze Membership benefits</li>
+                <li>Prominent listing in the member directory</li>
+                <li>Free admission to 3 major annual events</li>
+                <li>Monthly business workshops (12 per year)</li>
+                <li>Quarterly one-on-one business consultation</li>
+                <li>Spotlight feature on homepage (2 times per year)</li>
+                <li>15% discount on event registrations</li>
+                <li>Access to member-only resources library</li>
+            </ul>
+            <p><strong>Cost:</strong> ?150,000/year</p>
+        </div>
+    </dialog>
+
+    <dialog id="gold-dialog" class="membership-dialog">
+        <div class="dialog-content">
+            <button class="close-dialog">&times;</button>
+            <h2>Gold Membership</h2>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>All Silver Membership benefits</li>
+                <li>Featured listing in the member directory</li>
+                <li>Unlimited free admission to all events</li>
+                <li>Weekly business workshops</li>
+                <li>Monthly one-on-one business consultation</li>
+                <li>Weekly spotlight feature on homepage</li>
+                <li>25% discount on event registrations</li>
+                <li>Priority access to member-only resources</li>
+                <li>Exclusive invitation to VIP events</li>
+                <li>Personalized business development plan</li>
+                <li>Free booth at annual business exposition</li>
+            </ul>
+            <p><strong>Cost:</strong> ?350,000/year</p>
+        </div>
+    </dialog>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <h3>Contact the Lagos Chamber of Commerce</h3>
+                <p>Address: 10A Ozumba Mbadiwe Road, Victoria Island, Lagos, Nigeria</p>
+                <p>Phone: +234-1-277-4400</p>
+                <p>Email: <a href="mailto:info@lagoschamber.ng">info@lagoschamber.ng</a></p>
+            </div>
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <img src="images/facebook-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <img src="images/twitter-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <img src="images/instagram-icon.svg" alt="" width="32" height="32">
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img src="images/linkedin-icon.svg" alt="" width="32" height="32">
+                </a>
+            </div>
+            <div class="footer-dev">
+                <p>John Joshua | WDD 231 | Course Project | <span id="mod-date"></span></p>
+                <p>&copy; <span id="copyright-year"></span> Lagos Chamber of Commerce</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/modal.js"defer></script>
+</body>
+</html>
