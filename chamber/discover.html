@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Thank you for joining the Lagos Chamber of Commerce. We look forward to supporting your business growth.">
+    <meta name="description" content="Discover the exciting places, local businesses, and attractions in Lagos. Explore our curated selection of points of interest in the area.">
     <meta name="author" content="John Joshua">
-    <title>Thank You | Lagos Chamber of Commerce</title>
+    <title>Discover | Lagos Chamber of Commerce</title>
 
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Thank You | Lagos Chamber of Commerce">
-    <meta property="og:description" content="Thank you for applying to join the Lagos Chamber of Commerce. We look forward to supporting your business growth.">
+    <meta property="og:title" content="Discover | Lagos Chamber of Commerce">
+    <meta property="og:description" content="Explore exciting places and local attractions in Lagos with our curated selection of points of interest.">
     <meta property="og:image" content="https://JoexSeven7.github.io/wdd231/chamber/images/og-image.jpg">
-    <meta property="og:url" content="https://JoexSeven7.github.io/wdd231/chamber/thankyou.html">
+    <meta property="og:url" content="https://JoexSeven7.github.io/wdd231/chamber/discover.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
-    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/discover.css">
 </head>
 <body>
     <header>
@@ -45,50 +45,24 @@
                 <li><a href="join.html">Join</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="impact.html">Impact</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Thank You for Your Application!</h1>
-        
-        <section class="thankyou-section">
-            <div class="thankyou-card">
-                <h2>Application Received</h2>
-                <p>We have received your membership application for the Lagos Chamber of Commerce. Our team will review your application and contact you within 3-5 business days.</p>
-                
-                <div class="application-details">
-                    <h3>Application Summary</h3>
-                    <div class="detail-item">
-                        <span class="label">Name:</span>
-                        <span id="full-name"></span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="label">Email:</span>
-                        <span id="email-display"></span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="label">Phone:</span>
-                        <span id="phone-display"></span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="label">Business:</span>
-                        <span id="business-display"></span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="label">Membership Level:</span>
-                        <span id="membership-display"></span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="label">Application Date:</span>
-                        <span id="date-display"></span>
-                    </div>
-                </div>
-                
-                <p>In the meantime, feel free to explore our <a href="directory.html">member directory</a> and <a href="events.html">upcoming events</a>.</p>
-                
-                <a href="home.html" class="btn-primary">Return to Home</a>
+        <h1>Discover Lagos</h1>
+
+        <section class="discover-hero section">
+            <h2 class="section-title">Discover the Area</h2>
+            <p>Explore the vibrant businesses, attractions, and services that make Lagos a thriving hub for commerce and culture. Our curated selection highlights the diverse offerings available throughout our community.</p>
+        </section>
+
+        <section class="visit-message" id="visit-message" aria-live="polite"></section>
+
+        <section class="discover-grid section">
+            <div class="card-grid discover-grid" id="discover-container">
+                <p class="loading">Loading places of interest...</p>
             </div>
         </section>
     </main>
@@ -121,6 +95,8 @@
             </div>
         </div>
     </footer>
-    <script src="scripts/thanks.js" defer></script>
+
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/discover.js" type="module" defer></script>
 </body>
 </html>
