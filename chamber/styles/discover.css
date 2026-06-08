@@ -24,7 +24,6 @@
 /* Visit message */
 .visit-message {
     background: var(--bg-medium);
-    border-left: 4px solid var(--secondary-color);
     padding: 1rem 1.5rem;
     border-radius: 6px;
     margin-bottom: 1.5rem;
