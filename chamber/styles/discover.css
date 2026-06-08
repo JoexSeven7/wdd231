@@ -57,6 +57,8 @@
     overflow: hidden;
     box-shadow: 0 2px 8px var(--shadow);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .discover-card:hover {
@@ -85,6 +87,10 @@
 
 .discover-card-body {
     padding: 1.25rem;
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column;
+
 }
 
 .discover-card h2 {
@@ -120,6 +126,8 @@
     display: inline-block;
     padding: 0.6rem 1.25rem;
     font-size: 0.9rem;
+    margin-top: auto; 
+    align-self: flex-start;
 }
 
 /* ===== MEDIUM SCREEN (641px - 1024px) ===== */

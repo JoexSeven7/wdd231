@@ -726,32 +726,6 @@ footer {
     margin-bottom: 0.5rem;
 }
 
-.badge-silver {
-    background: #B0B0B0;
-    color: var(--bg-dark);
-}
-
-/* Membership section */
-.membership-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-}
-
-.membership-card {
-    background: var(--bg-light);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.membership-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
 .membership-card h3 {
     margin-top: 0;
     color: var(--primary-color);
@@ -767,23 +741,5 @@ footer {
     margin-top: 10px;
 }
 
-/* Weather forecast */
-.weather-forecast {
-    margin-top: 1rem;
-}
 
-.weather-forecast h3 {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-}
 
-.forecast-day {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    font-size: 0.85rem;
-}
-
-.forecast-date {
-    font-weight: 600;
-}
