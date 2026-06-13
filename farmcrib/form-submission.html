@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submission Received - FarmCrib</title>
+  <link rel="stylesheet" href="css/form-submission.css">
+  <!-- This page is intentionally unstyled per requirements -->
+</head>
+<body>
+  <h1>Form Submission Received</h1>
+  <p>Thank you for your submission. Here are the details you provided:</p>
+
+  <h2>Submitted Data</h2>
+  <dl id="submitted-data">
+    <!-- Data will be populated by server-side processing or JavaScript -->
+  </dl>
+  <hr>
+  <p><a href="about.html">Return to About Us</a> | <a href="index.html">Return to Home</a></p>
+
+  <!-- JavaScript to parse and display GET/POST form data -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const dl = document.getElementById('submitted-data');
+
+      if (typeof URLSearchParams !== 'undefined') {
+        const params = new URLSearchParams(window.location.search);
+        const fields = ['email', 'name', 'subject', 'message', 'type', 'quantity', 'location'];
+
+        fields.forEach(function(field) {
+          const value = params.get(field);
+          if (value) {
+            const dt = document.createElement('dt');
+            dt.textContent = field;
+            const dd = document.createElement('dd');
+            dd.textContent = decodeURIComponent(value);
+            dl.appendChild(dt);
+            dl.appendChild(dd);
+          }
+        });
+
+        // Also check POST data if applicable (server would handle this)
+        // For this demonstration, GET parameters are displayed
+
+        if (dl.children.length === 0) {
+          dl.innerHTML = '<p>No form data was detected in the URL parameters.</p>';
+        }
+      } else {
+        dl.innerHTML = '<p>Your browser does not support URLSearchParams.</p>';
+      }
+    });
+  </script>
+</body>
+</html>

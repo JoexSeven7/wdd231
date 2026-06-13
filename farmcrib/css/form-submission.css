@@ -1,0 +1,66 @@
+/**
+ * Form Submission Page Styles
+ * Simple, clean styling for the FarmCrib form action page
+ */
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #3E2723;
+  background-color: #F9F7F4;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', Georgia, serif;
+  color: #2D5016;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  border-bottom: 2px solid #D4A017;
+  padding-bottom: 8px;
+  margin-top: 24px;
+}
+
+dl {
+  margin: 16px 0;
+}
+
+dt {
+  font-weight: 700;
+  margin-top: 12px;
+  color: #2D5016;
+}
+
+dd {
+  margin-left: 0;
+  padding: 8px 12px;
+  background: #FFFFFF;
+  border-left: 4px solid #D4A017;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #E0E0E0;
+  margin: 24px 0;
+}
+
+a {
+  color: #D4A017;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2D5016;
+  text-decoration: underline;
+}

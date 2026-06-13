@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Weather Insights - Get real-time weather-based farming tips and crop recommendations for Nigerian agricultural regions.">
+  <meta name="author" content="FarmCrib Development Team">
+  
+  <!-- Open Graph Social Sharing Tags -->
+  <meta property="og:title" content="FarmCrib Weather Insights - Nigerian Agriculture">
+  <meta property="og:description" content="Access weather-based farming tips for all 36 Nigerian states. Plan your planting and harvesting with accurate forecasts.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://farmcrib.com.ng/weather">
+  <meta property="og:image" content="images/og-image.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.css">
+  <title>FarmCrib - Weather Insights | Nigerian Agricultural Tips</title>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">
+        <a href="index.html" aria-label="FarmCrib Homepage">FarmCrib</a>
+      </h1>
+      
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span class="hamburger-icon" aria-hidden="true">&#9776;</span>
+        <span class="close-icon" aria-hidden="true">&#10005;</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="marketplace.html">Marketplace</a></li>
+          <li><a href="weather.html" class="active" aria-current="page">Weather</a></li>
+          <li><a href="equipment.html">Equipment</a></li>
+          <li><a href="farmers.html">Farmers</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+      <h2 class="page-title">Weather Insights for Nigerian Farmers</h2>
+      
+      <p style="margin-bottom: var(--spacing-lg);">Select your region to get real-time weather data and farming recommendations tailored for your location.</p>
+
+      <!-- Region Selector -->
+      <div class="search-bar" role="search" aria-label="Select region">
+        <label for="region-select" class="sr-only">Select your region</label>
+        <select id="region-select" aria-label="Select your region for weather information">
+          <option value="">Select a Region...</option>
+          <option value="Kaduna">Kaduna</option>
+          <option value="Lagos">Lagos</option>
+          <option value="Abuja">Abuja (FCT)</option>
+          <option value="Oyo (Ibadan)">Oyo (Ibadan)</option>
+          <option value="Kano">Kano</option>
+          <option value="Enugu">Enugu</option>
+          <option value="Ebonyi">Ebonyi</option>
+          <option value="Plateau (Jos)">Plateau (Jos)</option>
+          <option value="Rivers (Port Harcourt)">Rivers (Port Harcourt)</option>
+          <option value="Kwara (Ilorin)">Kwara (Ilorin)</option>
+          <option value="Kebbi (Birnin Kebbi)">Kebbi (Birnin Kebbi)</option>
+          <option value="Benue (Makurdi)">Benue (Makurdi)</option>
+          <option value="Nasarawa (Lafia)">Nasarawa (Lafia)</option>
+          <option value="Ogun (Abeokuta)">Ogun (Abeokuta)</option>
+        </select>
+        <button id="check-weather" class="btn">Check Weather</button>
+      </div>
+
+      <!-- Loading indicator -->
+      <p id="weather-loading" class="loading" aria-live="polite" style="display: none;">
+        Loading weather data...
+      </p>
+
+      <!-- Weather Results -->
+      <div id="weather-results" class="item-grid" aria-label="Weather information cards">
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+        <li><a href="weather.html">Weather</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+        <li><a href="farmers.html">Farmers</a></li>
+        <li><a href="messages.html">Messages</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2026 FarmCrib. Connecting Nigerian Farmers to Global Markets.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
