@@ -1084,7 +1084,7 @@ legend {
    Footer
    ============================================ */
 .site-footer {
-  background-color: var(--color-dark);
+  background-color: var(--color-primary);
   color: var(--color-white);
   padding-block: var(--spacing-xl);
   margin-top: var(--spacing-xxl);

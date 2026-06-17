@@ -1,6 +1,6 @@
 /**
  * FarmCrib Main Module
- * Author: FarmCrib Development Team
+ * Author: John Joshua
  */
 
 import { initNavigation } from './navigation.js';
