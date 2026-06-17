@@ -295,6 +295,51 @@ main {
   border-bottom: 3px solid var(--color-primary);
 }
 
+.hero-copy {
+  font-size: 1.125rem;
+  max-width: 700px;
+}
+
+.hero-actions {
+  margin-top: var(--spacing-lg);
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.feature-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.intro {
+  margin-bottom: var(--spacing-lg);
+}
+
+.section-title {
+  margin-bottom: var(--spacing-md);
+}
+
+.message-list {
+  list-style: none;
+}
+
+.loading.hidden {
+  display: none;
+}
+
+.last-viewed-info {
+  margin-top: var(--spacing-lg);
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.privacy-note {
+  margin-top: var(--spacing-sm);
+  font-size: 0.75rem;
+  color: #999;
+}
+
 /* ============================================
    Search Bar
    ============================================ */
