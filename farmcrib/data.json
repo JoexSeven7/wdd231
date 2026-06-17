@@ -10,7 +10,7 @@
     "rating": 4.8,
     "reviews": 124,
     "description": "Locally grown, sun-ripened tomatoes perfect for stews and sauces. Picked fresh daily from our family farm in Kaduna.",
-    "image": "images/tomatoes.jpg",
+    "image": "images/tomatoes.jpeg",
     "available": true
   },
   {
@@ -24,7 +24,7 @@
     "rating": 4.9,
     "reviews": 89,
     "description": "Premium organic rice grown without harmful chemicals. Popular for its aromatic flavor and high yield.",
-    "image": "images/rice.jpg",
+    "image": "images/organic_rice.webp",
     "available": true
   },
   {
@@ -38,7 +38,7 @@
     "rating": 4.7,
     "reviews": 56,
     "description": "Nutritious sweet potatoes rich in vitamins and fiber. Perfect for boiling, frying, or baking.",
-    "image": "images/sweet-potatoes.jpg",
+    "image": "images/sweet_potatoes.jpeg",
     "available": true
   },
   {
@@ -52,7 +52,7 @@
     "rating": 4.6,
     "reviews": 42,
     "description": "Vibrant yellow bell peppers ideal for cooking and salads. Grown with natural compost for superior taste.",
-    "image": "images/yellow-pepper.jpg",
+    "image": "images/yellow_pepper.jpeg",
     "available": true
   },
   {
@@ -66,7 +66,7 @@
     "rating": 4.5,
     "reviews": 67,
     "description": "Fresh cassava tubers ideal for fufu, garri, and starch production. High starch content and excellent quality.",
-    "image": "images/cassava.jpg",
+    "image": "images/cassava.jpeg",
     "available": true
   },
   {
@@ -80,7 +80,7 @@
     "rating": 4.4,
     "reviews": 38,
     "description": "High-quality sorghum suitable for making pap, couscous, and traditional beverages. Drought-resistant variety.",
-    "image": "images/sorghum.jpg",
+    "image": "images/grain.jpeg",
     "available": true
   },
   {
@@ -94,7 +94,7 @@
     "rating": 4.9,
     "reviews": 112,
     "description": "Premium fermented cocoa beans suitable for chocolate production. Processed according to international standards.",
-    "image": "images/cocoa.jpg",
+    "image": "images/cocoa-beans.webp",
     "available": true
   },
   {
@@ -108,7 +108,7 @@
     "rating": 4.7,
     "reviews": 95,
     "description": "Freshly extracted red palm oil from sustainable palm plantations. Rich in antioxidants and beta-carotene.",
-    "image": "images/palm-oil.jpg",
+    "image": "images/palm oil.webp",
     "available": true
   },
   {
@@ -122,7 +122,7 @@
     "rating": 4.6,
     "reviews": 73,
     "description": "Premium grade A groundnuts perfect for snacking, oil extraction, and culinary uses. Clean and well-dried.",
-    "image": "images/groundnuts.jpg",
+    "image": "images/Groundnut.jpg",
     "available": true
   },
   {
@@ -136,7 +136,7 @@
     "rating": 4.5,
     "reviews": 51,
     "description": "Crisp and tender okra pods harvested at peak freshness. Ideal for traditional soups and stews.",
-    "image": "images/okra.jpg",
+    "image": "images/fresh okra.avif",
     "available": true
   },
   {
@@ -150,7 +150,7 @@
     "rating": 4.8,
     "reviews": 87,
     "description": "Pure unrefined shea butter with moisturizing properties. Suitable for cosmetic and culinary applications.",
-    "image": "images/shea-butter.jpg",
+    "image": "images/shea_butter.webp",
     "available": true
   },
   {
@@ -164,7 +164,7 @@
     "rating": 4.7,
     "reviews": 63,
     "description": "Freshly harvested catfish from sustainable aquaculture ponds. Perfect for grilling, frying, and pepper soup.",
-    "image": "images/catfish.jpg",
+    "image": "images/catfish-main.webp",
     "available": true
   },
   {
@@ -178,7 +178,7 @@
     "rating": 4.3,
     "reviews": 29,
     "description": "Nutritious millet grain suitable for making tuwo, fura, and traditional porridge. High in protein and minerals.",
-    "image": "images/millet.jpg",
+    "image": "images/Hardy-millet.jpg",
     "available": true
   },
   {
@@ -192,7 +192,7 @@
     "rating": 4.6,
     "reviews": 34,
     "description": "Premium quality kolanuts grown using traditional methods for ceremonial and commercial purposes.",
-    "image": "images/kolanut.jpg",
+    "image": "images/kolanut.webp",
     "available": true
   },
   {
@@ -206,7 +206,7 @@
     "rating": 4.8,
     "reviews": 102,
     "description": "Juicy, sweet pineapples harvested at perfect ripeness. Rich in vitamin C and bromelain enzymes.",
-    "image": "images/pineapple.jpg",
+    "image": "images/pineapple.webp",
     "available": true
   },
   {
@@ -220,7 +220,7 @@
     "rating": 4.5,
     "reviews": 18,
     "description": "Healthy Balami sheep raised on free-range grazing. Suitable for breeding, fattening, or festive celebrations.",
-    "image": "images/sheep.jpg",
+    "image": "images/sheep.webp",
     "available": true
   },
   {
@@ -234,7 +234,7 @@
     "rating": 4.6,
     "reviews": 47,
     "description": "Crunchy green beans ideal for stir-frying, salads, and as a side dish. Free from pesticides and chemicals.",
-    "image": "images/green-beans.jpg",
+    "image": "images/green_beans.jpg",
     "available": true
   },
   {
@@ -248,7 +248,7 @@
     "rating": 4.7,
     "reviews": 81,
     "description": "High-quality yam seed sticks for planting. Guaranteed sprouting rate with healthy, disease-free tubers.",
-    "image": "images/yam.jpg",
+    "image": "images/yam.jpeg",
     "available": true
   }
 ]

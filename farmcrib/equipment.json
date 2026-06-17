@@ -22,7 +22,7 @@
     "owner": "Sani Agro Services",
     "rating": 4.4,
     "reviews": 21,
-    "image": "images/plough.jpg",
+    "image": "images/disc_plough.jpg",
     "available": true
   },
   {
@@ -61,7 +61,7 @@
     "owner": "Ogunleye Water Systems",
     "rating": 4.5,
     "reviews": 29,
-    "image": "images/pump.jpg",
+    "image": "images/irrigation.jpg",
     "available": true
   },
   {
@@ -74,7 +74,7 @@
     "owner": "Ebere Agritech",
     "rating": 4.7,
     "reviews": 38,
-    "image": "images/sprayer.jpg",
+    "image": "images/crop_sprayer.jpg",
     "available": true
   },
   {
@@ -84,7 +84,7 @@
     "price": "₦9,000",
     "unit": "per day",
     "location": "Kwara",
-    "image": "images/rotavator.jpg",
+    "image": "images/rotavator.jpeg",
     "available": true,
     "owner": "Mohammed Agro-Rent",
     "rating": 4.2,
@@ -113,7 +113,7 @@
     "owner": "Gbande Farm Equipment",
     "rating": 4.4,
     "reviews": 23,
-    "image": "images/baler.jpg",
+    "image": "images/balers.jpg",
     "available": true
   },
   {
@@ -178,7 +178,7 @@
     "owner": "Dalyop Agri-Rentals",
     "rating": 4.2,
     "reviews": 14,
-    "image": "images/harrow.jpg",
+    "image": "images/harrow.jpeg",
     "available": true
   },
   {
@@ -191,7 +191,7 @@
     "owner": "Adeyemi Machinery",
     "rating": 4.5,
     "reviews": 31,
-    "image": "images/pump.jpg",
+    "image": "images/water_pump.webp",
     "available": true
   },
   {
@@ -204,7 +204,7 @@
     "owner": "Okafor Rice Mill",
     "rating": 4.7,
     "reviews": 27,
-    "image": "images/dryer.jpg",
+    "image": "images/paddy_dryer.jpeg",
     "available": true
   },
   {
@@ -217,7 +217,7 @@
     "owner": "Adeyemi Haulage",
     "rating": 4.3,
     "reviews": 16,
-    "image": "images/grass-cutter.jpg",
+    "image": "images/grass cutter.jpeg",
     "available": true
   },
   {
@@ -230,7 +230,7 @@
     "owner": "Gbande Farm Equipment",
     "rating": 4.1,
     "reviews": 9,
-    "image": "images/tools.jpg",
+    "image": "images/digging_tool.webp",
     "available": true
   }
 ]
